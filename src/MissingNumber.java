@@ -2,14 +2,14 @@
 
 public class MissingNumber {
     public static int findMissingNumber(int[] nums){
-        int n = nums.length;
-        int totalSum = n * (n + 1) / 2;
+        int n = nums.length;  // step: length of array(which is n)
+        int totalSum = n * (n + 1) / 2; // step2: Expected sum from 0 to n
         int actualSum = 0;
 
         for(int num : nums){
-            actualSum += num;
+            actualSum += num; // step3: calculate the sum of given number
         }
-        return totalSum - actualSum;
+        return totalSum - actualSum; // step4: subtract to find missing number
     }
     public static void main(String[] args){
         int[] nums = {0, 2, 3};
