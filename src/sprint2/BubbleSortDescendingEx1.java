@@ -1,3 +1,7 @@
+//BubbleSortInDescendingOrder
+// Ex:- input:- arr[] = {9, 4, 9, 6, 7, 4};
+//      output:- arr[] = {9, 9,  7,  6, 4, 4 };
+
 package sprint2;
 
 public class BubbleSortDescendingEx1 {
